@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  font-size: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.center,
+.box-content.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: auto;
+  width: auto;
+}
+
+.box {
+  top: 150px;
+  width: 10%;
+  height: 50%;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-left: 42px;
+}
+
+.box-content {
+  font-size: 36px;
+  height: 100%;
+  width: 100%;
+}
+
+.box-1 {
+  width: 10%;
+}
+
+.box-2 {
+  width: 10%;
+}
+
+.box-3 {
+  width: 10%;
+}
+
+.box-4 {
+  width: 10%;
+}
+
+.box-5 {
+  width: 10%;
+}
+.box-6 {
+  width: 10%;
+}
+.box-7 {
+  width: 10%;
+}
+
+.row {
+  height: 33.33%;
+  width: 100%;
+  opacity: 1.0;
+  position: relative;
+}
+
+.row-1 {
+  height: 7%;
+  background-color: #4FC3F7;
+}
+
+.row-2 {
+  height: 25%;
+  background-color: #FFA000;
+}
+
+.row-3 {
+  height: 50%;
+  background-color: #2962FF;
+}
+
+.row-4 {
+  height: 25%;
+  background-color: #4FC3F7;
+}
+
+.row-5 {
+  height: 25%;
+  background-color: #FFA000;
+}
+
+.row-6 {
+  height: 50%;
+  background-color: #2962FF;
+}
+
+.row-7 {
+  height: 7.5%;
+  background-color: #4FC3F7;
+}
+
+.row-8 {
+  height: 12.5%;
+  background-color: #FFA000;
+}
+
+.row-9 {
+  height: 50%;
+  background-color: #2962FF;
+}
+
+.row-10 {
+  height: 12.5%;
+  background-color: #4FC3F7;
+}
+
+.row-11 {
+  height: 25%;
+  background-color: #FFA000;
+}
+
+.row-12 {
+  height: 50%;
+  background-color: #2962FF;
+}
+
+.row-13 {
+  height: 12.5%;
+  background-color: #4FC3F7;
+}
+
+.row-14 {
+  height: 25%;
+  background-color: #FFA000;
+}
+
+.row-15 {
+  height: 62.5%;
+  background-color: #2962FF;
+}
+
+.row-16 {
+  height: 25%;
+  background-color: #4FC3F7;
+}
+
+.row-17 {
+  height: 25%;
+  background-color: #FFA000;
+}
+
+.row-18 {
+  height: 50%;
+  background-color: #2962FF;
+}
+
+.row-19 {
+  height: 12.5%;
+  background-color: #4FC3F7;
+}
+
+.row-20 {
+  height: 25%;
+  background-color: #FFA000;
+}
+
+.row-21 {
+  height: 25%;
+  background-color: #2962FF;
+}
+
+header {
+  font-weight: bold;
+  margin-top:20px;
+  text-align: center;
+  font-size: 18pt;
+  color:black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+}
+
+.social {
+  color: #2962FF;
+}
+
+.game {
+  color: #FFA000;
+}
+
+.creative {
+  color: #4FC3F7;
+}
